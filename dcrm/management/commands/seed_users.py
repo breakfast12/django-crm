@@ -6,5 +6,5 @@ class Command(BaseCommand):
     help = 'Seed initial data into the User table'
 
     def handle(self, *args, **options):
-        User.objects.create_superuser(username='admin', email='admin@mailinator.com', password=make_password('123xixihaha'))
+        User.objects.create_superuser(username='admin', email='admin@mailinator.com', password='123xixihaha')
         self.stdout.write(self.style.SUCCESS('Successfully seeded User table'))
