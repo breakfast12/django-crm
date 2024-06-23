@@ -3,3 +3,5 @@ dcrm/__pycache__/
 website/__pycache__/
 website/migrations/__pycache__/
 .env
+dcrm/management/__pycache__/
+dcrm/management/commands/__pycache__/
